@@ -23,7 +23,7 @@ jobs:
       - name: Create ASCII artwork
         run: |
           mkdir -p ascii_output
-          figlet "Hello World" > ascii_output/art.txt
+          figlet "Hello Sudheesh" > ascii_output/art.txt
           cat ascii_output/art.txt
 
       # Step 4: Commit and push the ASCII file back to repo
